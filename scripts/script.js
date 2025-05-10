@@ -12,7 +12,7 @@ function play() {
 //2s. this function present in play ground-------------------------
 function continueGame() {
   const alphabet = randomAplabet(); //goto 3c
-  console.log(alphabet);
+  //console.log(alphabet);
   //set alphabte in display
   const text = document.getElementById("diplayAlphabate");
   text.innerText = alphabet;
